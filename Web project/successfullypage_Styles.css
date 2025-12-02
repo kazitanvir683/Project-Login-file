@@ -1,0 +1,68 @@
+/* Style for the entire page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* Light blue/grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333333;
+}
+
+/* Style for the main card container */
+.welcome-card {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Deep shadow */
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    transition: transform 0.3s;
+}
+
+.welcome-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+}
+
+/* Style for the success icon */
+.icon {
+    font-size: 4rem; 
+    color: #28a745; /* Green for success */
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Style for the main heading */
+h1 {
+    font-size: 2.2rem;
+    color: #1e3c72; /* Dark blue theme color */
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Style for the description paragraph */
+p {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Style for the button */
+.dashboard-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2a5298; /* Theme blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.dashboard-btn:hover {
+    background-color: #1e3c72;
+    transform: translateY(-1px);
+}
